@@ -16,6 +16,7 @@
   gap: 40px;
 }
 .header__nav__btn {
+  font-family: "Roboto", sans-serif;
   padding: 12px 32px;
   border: 1px solid #1d2130;
   background: #1d2130;
@@ -33,6 +34,7 @@
   color: #1d2130;
 }
 .header__nav__link {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -40,7 +42,7 @@
   transition: 0.5s;
 }
 .header__nav__link:hover {
-    color: #1d2130;
+  color: #1d2130;
 }
 
 .nav__list {
@@ -95,6 +97,7 @@
 }
 
 .nav-res__link {
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   color: #1d2130;
   text-transform: uppercase;
