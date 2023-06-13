@@ -37,6 +37,10 @@
   font-size: 16px;
   line-height: 19px;
   color: #525560;
+  transition: 0.5s;
+}
+.header__nav__link:hover {
+    color: #1d2130;
 }
 
 .nav__list {
