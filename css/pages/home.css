@@ -334,8 +334,7 @@
 
 /* ------ about section ------ */
 
-.about {
-}
+
 
 .about__container {
   display: flex;
@@ -351,8 +350,7 @@
   height: 2px;
   background-color: #1d2130;
 }
-.about__aside__texts {
-}
+
 .about__aside__texts > h5 {
   font-family: "Roboto";
   font-weight: 700;
@@ -405,8 +403,7 @@
 .about__bside {
   margin-top: 96px;
 }
-.about__bside__img {
-}
+
 
 .about__end__wrapper {
   margin-top: 64px;
@@ -491,8 +488,7 @@
   height: 2px;
   background-color: #1d2130;
 }
-.what-we-do__aside__texts {
-}
+
 .what-we-do__aside__texts > h5 {
   font-family: "Roboto";
   font-weight: 700;
