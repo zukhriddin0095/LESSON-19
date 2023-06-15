@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+  <div class="scrolltop" onclick="scrollToTop();"><a href="#"></a></div>
     <header class="header">
        <div class="container header__container">
         <div class="header__logo">
@@ -22,13 +23,13 @@
                             <a href="./about-us.html" class="header__nav__link">About us</a>
             </li>
             <li class="nav__item">
-                            <a href="" class="header__nav__link">What We Do</a>
+                            <a href="./what-we-do.html" class="header__nav__link">What We Do</a>
             </li>
             <li class="nav__item">
-                            <a href="" class="header__nav__link">Media</a>
+                            <a href="./media.html" class="header__nav__link">Media</a>
             </li>
             <li class="nav__item">
-                            <a href="" class="header__nav__link">Contact</a>
+                            <a href="./contact-us.html" class="header__nav__link">Contact</a>
             </li>
            </ul>
            <button href="./donation.html" class="header__nav__btn">Donate</button>
@@ -42,19 +43,19 @@
             <div id="navbar-responsive">
               <ul class="nav-res__list">
                 <li class="nav-res__item">
-                  <a href="#" class="nav-res__link">Home</a>
+                  <a href="./index.html" class="nav-res__link">Home</a>
                 </li>
                 <li class="nav-res__item">
-                  <a href="#" class="nav-res__link">About us</a>
+                  <a href="./about-us.html" class="nav-res__link">About us</a>
                 </li>
                 <li class="nav-res__item">
-                  <a href="#" class="nav-res__link">What we do</a>
+                  <a href="./what-we-do.html" class="nav-res__link">What we do</a>
                 </li>
                 <li class="nav-res__item">
-                  <a href="#" class="nav-res__link">Media</a>
+                  <a href="./media.html" class="nav-res__link">Media</a>
                 </li>
                 <li class="nav-res__item">
-                  <a href="#" class="nav-res__link">contact</a>
+                  <a href="./contact-us.html" class="nav-res__link">contact</a>
                 </li>
               </ul>
               <button id="navbar-close">
@@ -92,7 +93,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.
 
                  <span class="about__aside__text"> ‍Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</span></p>
-                 <button class="about__aside__btn">Learn more</button>
+                 <button href="./about-us.html" class="about__aside__btn">Learn more</button>
               </div>
 
             </div>
@@ -245,6 +246,7 @@
             </div>
           </div>
         </section>
+
         <section class="greener">
           <div class="container greener__container">
               <h3 class="greener__title">You can contribute to make the environment greener!</h3>
@@ -254,6 +256,7 @@
               </div>
           </div>
         </section>
+        
         <section class="news-and-events">
           <div class="container">
             <div class="new__box">
@@ -272,12 +275,12 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim</p>
               </div>
               <div class="new__content__item">
-                <img src="./images/home/Thumbnail (2).png" alt="">
+               <a href="./event.html"> <img src="./images/home/Thumbnail (2).png" alt=""></a>
                 <h5>Don’t destroy greenery and don’t spoil scenery</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim</p>
               </div>
               <div class="new__content__item">
-                <img src="./images/home/Thumbnail (3).png" alt="">
+                <a href="./event.html"><img src="./images/home/Thumbnail (3).png" alt=""></a>
                 <h5>Don’t destroy greenery and don’t spoil scenery</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim</p>
               </div>
@@ -287,7 +290,42 @@
                 <h3 class="events__box__title">Our Events</h3>
                 <div class="events__border"></div>
               </div>
-              
+
+              <div class="event__content">
+                <div class="event__content__box">
+                  <div class="event__box__data">
+                    <h3>23</h3>
+                    <p>sep</p>
+                  </div>
+                  <div class="event__box__texts">
+                    <div class="event__box__title-border">
+                      <h5>Next Events</h5>
+                      <div class="event__box__border"></div>
+                    </div>
+                    <h3 class="event__box__title">Say no to plastic usage and save the planet</h3>
+                  </div>
+                  <div class="event__box__img">
+                    <img class="event__img" src="./images/home/evens-btn.png" alt="">
+                  </div>
+                </div>
+
+                <div class="event__content__box">
+                  <div class="event__box__data">
+                    <h3>23</h3>
+                    <p>sep</p>
+                  </div>
+                  <div class="event__box__texts">
+                    <div class="event__box__title-border">
+                      <h5>Next Events</h5>
+                      <div class="event__box__border"></div>
+                    </div>
+                    <h3 class="event__box__title">Say no to plastic usage and save the planet</h3>
+                  </div>
+                  <div class="event__box__img">
+                    <img class="event__img" src="./images/home/evens-btn.png" alt="">
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </section>
@@ -301,16 +339,16 @@
                 <ul class="footer__list">
                     <li class="footer__item">
                         <h3 class="footer__item__title">Our team</h3>
-                        <a href="" class="footer__item__link">About us</a>
+                        <a href="./about-us.html" class="footer__item__link">About us</a>
                         <a href="" class="footer__item__link">Team</a>
-                        <a href="" class="footer__item__link">What we do</a>
+                        <a href="./what-we-do.html" class="footer__item__link">What we do</a>
                         <a href="" class="footer__item__link">Connect</a>
                     </li>
                     <li class="footer__item">
                         <h3 class="footer__item__title">More</h3>
-                        <a href="" class="footer__item__link">project</a>
-                        <a href="" class="footer__item__link">Events</a>
-                        <a href="" class="footer__item__link">Donate</a>
+                        <a href="./project.html" class="footer__item__link">project</a>
+                        <a href="./event.html" class="footer__item__link">Events</a>
+                        <a href="./donation.html" class="footer__item__link">Donate</a>
                         <a href="" class="footer__item__link">Blog</a>
                     </li>
                     <li class="footer__item">
@@ -345,6 +383,18 @@ function closeNavbar() {
 
 document.getElementById("navbar-open").addEventListener("click", openNavbar);
 document.getElementById("navbar-close").addEventListener("click", closeNavbar);
+
+
+window.addEventListener('scroll', function(){
+    var scroll = document.querySelector('.scrolltop');
+    scroll.classList.toggle("active" , window.scrollY > 500)
+})
+function scrollToTop(){
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    })
+}
     </script>
      <!-- teginilmasin  -->
 </body>
