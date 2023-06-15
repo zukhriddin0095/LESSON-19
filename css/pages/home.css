@@ -228,7 +228,7 @@
 }
 
 .home {
-  background: url(/MY-PROJECT/images/home/BG\ Image.png) no-repeat;
+  background: url(../../images/home/BG\ Image.png) no-repeat;
   background-position: center 0;
   height: 735px;
 }
@@ -822,7 +822,7 @@
   align-items: center;
   flex-direction: column;
   height: 384px;
-  background: url(/MY-PROJECT/images/home/greneer.png) no-repeat;
+  background: url(../../images/home/greneer.png) no-repeat;
 }
 .greener__title {
   max-width: 631px;
