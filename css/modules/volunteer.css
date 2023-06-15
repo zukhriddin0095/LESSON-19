@@ -10,7 +10,7 @@
     align-items: center;
     flex-direction: column;
     height: 384px;
-    background: url(/images/home/greneer.png) no-repeat;
+    background: url(../../images/home/greneer.png) no-repeat;
   }
   .greener__title {
     max-width: 631px;
