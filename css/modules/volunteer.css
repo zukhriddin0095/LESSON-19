@@ -47,14 +47,3 @@
     }
   }
     /* ------ html-------- */
-
-
-    <section class="greener">
-          <div class="container greener__container">
-              <h3 class="greener__title">You can contribute to make the environment greener!</h3>
-              <div class="grenner__bts">
-                <button class="greener__btn">Join as a volunteer</button>
-                <button class="greener__btn">Donate</button>
-              </div>
-          </div>
-        </section>
