@@ -239,3 +239,7 @@
     text-align: center;
     color: #525560;
 }
+
+.green-img {
+    background-image: url(/images/home/greener.png) ;
+}
