@@ -334,8 +334,6 @@
 
 /* ------ about section ------ */
 
-
-
 .about__container {
   display: flex;
   justify-content: space-between;
@@ -403,7 +401,6 @@
 .about__bside {
   margin-top: 96px;
 }
-
 
 .about__end__wrapper {
   margin-top: 64px;
@@ -737,3 +734,132 @@
     font-size: 28px;
   }
 }
+
+/* ---  donations --- */
+
+.donations {
+  background-color: rgba(11, 7, 6, 1);
+}
+.donatin__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.donation__aside {
+  margin-top: 142px;
+  margin-bottom: 141px;
+}
+.donation__aside > h2 {
+  max-width: 611px;
+  height: 116px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  color: #ffffff;
+}
+.donation__aside > p {
+  margin-top: 16px;
+  margin-bottom: 32px;
+  max-width: 606px;
+  height: 52px;
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 160%;
+  color: #ffffff;
+  opacity: 0.6;
+}
+.donation__content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 26px;
+}
+.donation__derc {
+  display: flex;
+  gap: 8px;
+}
+.donation__derc > h5 {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  color: #ffffff;
+}
+.donation__bside {
+  margin-top: 96px;
+  margin-bottom: 96px;
+}
+
+@media (max-width: 1050px) {
+  .donatin__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 700px) {
+  .donation__content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .donation__aside > h2 {
+    font-size: 33px;
+  }
+  .donation__aside > p {
+    font-size: 13px;
+  }
+  .donation__bside >img {
+    width: 100%;
+  }
+
+}
+
+/* --- greener ---- */
+
+.greener__container {
+  margin-top: 96px;
+  margin-bottom: 96px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 384px;
+  background: url(/MY-PROJECT/images/home/greener.png) no-repeat;
+}
+.greener__title {
+  max-width: 631px;
+  height: 116px;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  text-align: center;
+  color: #ffffff;
+}
+.greener__btn {
+  margin-top: 32px;
+  margin-right: 64px;
+  padding: 16px 32px;
+  background: #ffffff;
+  backdrop-filter: blur(40px);
+  border-radius: 4px;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1d2130;
+  transition: 0.5s;
+}
+.greener__btn:hover {
+  background: #70C174;
+  color: #fff;
+}
+@media (max-width: 700px) {
+  .greener__title {
+    font-size: 25px;
+  }
+  .greener__btn {
+    font-size: 15px;
+  }
+}
+
+/* ----- news ---- */
