@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+  <div class="scrolltop" onclick="scrollToTop();"><a href="#"></a></div>
     <header class="header">
        <div class="container header__container">
         <div class="header__logo">
@@ -382,6 +383,18 @@ function closeNavbar() {
 
 document.getElementById("navbar-open").addEventListener("click", openNavbar);
 document.getElementById("navbar-close").addEventListener("click", closeNavbar);
+
+
+window.addEventListener('scroll', function(){
+    var scroll = document.querySelector('.scrolltop');
+    scroll.classList.toggle("active" , window.scrollY > 500)
+})
+function scrollToTop(){
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    })
+}
     </script>
      <!-- teginilmasin  -->
 </body>
