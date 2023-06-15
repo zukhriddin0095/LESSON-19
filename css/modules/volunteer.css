@@ -1,4 +1,6 @@
-
+.greener{
+    background-image: url();
+}
 
 .greener__container {
     margin-top: 96px;
@@ -8,7 +10,7 @@
     align-items: center;
     flex-direction: column;
     height: 384px;
-    background: url(/MY-PROJECT/images/home/greener.png) no-repeat;
+    background: url(/images/donation/donation_green_img.png) no-repeat;
   }
   .greener__title {
     max-width: 631px;
@@ -46,15 +48,3 @@
       font-size: 15px;
     }
   }
-    /* ------ html-------- */
-
-
-    <section class="greener">
-          <div class="container greener__container">
-              <h3 class="greener__title">You can contribute to make the environment greener!</h3>
-              <div class="grenner__bts">
-                <button class="greener__btn">Join as a volunteer</button>
-                <button class="greener__btn">Donate</button>
-              </div>
-          </div>
-        </section>
